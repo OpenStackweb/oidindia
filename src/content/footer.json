@@ -82,16 +82,8 @@
   },
   "legal": [
     {
-      "title": "Privacy Policy",
-      "link": "/footer-content/"
-    },
-    {
-      "title": "Legals",
-      "link": "/footer-content/"
-    },
-    {
-      "title": "Disclaimer",
-      "link": "/footer-content/"
+      "title": "Code of Conduct",
+      "link": "https://openinfra.dev/legal/code-of-conduct"
     }
   ]
 }

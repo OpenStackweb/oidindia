@@ -35,6 +35,16 @@
       "pageRestriction": [
         "ANY"
       ]
+    },
+    {
+      "requiresAuth": false,
+      "showOnlyAtShowTime": false,
+      "pageRestriction": [
+        "ANY"
+      ],
+      "title": "Code of Conduct",
+      "link": "https://openinfra.dev/legal/code-of-conduct",
+      "display": true
     }
   ]
 }

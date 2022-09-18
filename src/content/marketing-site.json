@@ -12,14 +12,13 @@
       },
       "loginButton": {
         "text": "Log in",
-        "display": true
+        "display": false
       }
     },
     "background": "",
     "images": [
       {
-        "file": "/img/tier1-default-header1.png",
-        "alt": ""
+        "file": "/img/cover-website-4.png"
       }
     ]
   },

@@ -9,6 +9,11 @@ const MyTicketsPage = ({ location }) => {
             <div className="container">
                 <MyOrdersTicketsComponent />
             </div>
+            <div className="container">
+                <div className="ticket-return-home">
+                    <a href="/">Return to Homepage</a>
+                </div>
+            </div>
         </Layout>
     );
 };

@@ -17,42 +17,10 @@
           "link": "/footer-content/"
         }
       ]
-    },
-    {
-      "title": "The Vision",
-      "display": true,
-      "items": [
-        {
-          "title": "About",
-          "link": "/footer-content/"
-        },
-        {
-          "title": "Supporters",
-          "link": "/footer-content/"
-        }
-      ]
-    },
-    {
-      "title": "Membership",
-      "display": false,
-      "items": [
-        {
-          "title": "Corporate members",
-          "link": "/footer-content/"
-        },
-        {
-          "title": "Join us",
-          "link": "/footer-content/"
-        },
-        {
-          "title": "Services",
-          "link": "/footer-content/"
-        }
-      ]
     }
   ],
   "logo": {
-    "display": false
+    "display": true
   },
   "social": {
     "title": "Follow Us",
@@ -71,11 +39,6 @@
       {
         "icon": "fa-linkedin",
         "link": "/footer-content/",
-        "display": true
-      },
-      {
-        "link": "/footer-content/",
-        "icon": "TEST",
         "display": true
       }
     ]

@@ -573,4 +573,48 @@ h2 {
   top: 70% !important;
 }
 
+
+#content-wrapper {
+  .marketing-content-container {
+    .title {
+      font-size: 50px;
+      margin-bottom: 40px;
+      @media screen and (max-width: 1000px) and (min-width: 769px) {
+        font-size: 40px
+      }
+    }
+    .marketing-date-container {
+      .marketing-date-inner-container {
+        font-size: 38px;
+        @media screen and (max-width: 1000px) and (min-width: 769px) {
+          font-size: 30px
+        }
+      }
+    }
+  }
+}
+
+.marketing-site-countdown-text {
+  font-size: 42px;
+  @media screen and (max-width: 1000px) and (min-width: 769px) {
+    font-size: 38px
+  }
+}
+
+.marketing-section-content {
+  padding-bottom: 80px;
+  h2 {
+    font-size: 32px;
+  }
+  p {
+    font-size: 17px;
+  }
+}
+
+#marketing-slider {
+  .marketing-site-hero-img {
+    background-position: 50%;
+  }
+}
+
 @import "~openstack-uicore-foundation/lib/css/components/extra-questions.css";

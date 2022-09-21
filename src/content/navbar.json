@@ -10,26 +10,8 @@
       ]
     },
     {
-      "title": "About the event",
-      "link": "/about-event",
-      "display": true,
-      "requiresAuth": false,
-      "pageRestriction": [
-        "ANY"
-      ]
-    },
-    {
       "title": "Who we are",
-      "link": "/who-we-are",
-      "display": true,
-      "requiresAuth": false,
-      "pageRestriction": [
-        "ANY"
-      ]
-    },
-    {
-      "title": "Contact",
-      "link": "/contact",
+      "link": "https://openinfra.dev/",
       "display": true,
       "requiresAuth": false,
       "pageRestriction": [

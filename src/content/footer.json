@@ -1,30 +1,11 @@
 {
-  "columns": [
-    {
-      "title": "The Event",
-      "display": true,
-      "items": [
-        {
-          "title": "All Projects",
-          "link": "/footer-content/"
-        },
-        {
-          "title": "Host a project",
-          "link": "/footer-content/"
-        },
-        {
-          "title": "Services",
-          "link": "/footer-content/"
-        }
-      ]
-    }
-  ],
+  "columns": [],
   "logo": {
-    "display": true
+    "display": false
   },
   "social": {
     "title": "Follow Us",
-    "display": true,
+    "display": false,
     "networks": [
       {
         "icon": "fa-facebook",

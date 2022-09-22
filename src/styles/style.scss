@@ -598,8 +598,17 @@ h2 {
         @media screen and (max-width: 500px) {
           font-size: 30px;
         }
+        @media screen and (max-width: 390px) {
+          font-size: 25px;
+        }
       }
     }
+  }
+}
+
+.marketing-site-navbar {
+  @media screen and (max-width: 500px) {
+    padding-left: 0;
   }
 }
 

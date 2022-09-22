@@ -582,12 +582,21 @@ h2 {
       @media screen and (max-width: 1000px) and (min-width: 769px) {
         font-size: 40px
       }
+      @media screen and (max-width: 500px) {
+        font-size: 42px;
+      }
     }
     .marketing-date-container {
+      @media screen and (max-width: 500px) {
+        width: fit-content;
+      }
       .marketing-date-inner-container {
         font-size: 38px;
         @media screen and (max-width: 1000px) and (min-width: 769px) {
-          font-size: 30px
+          font-size: 30px;
+        }
+        @media screen and (max-width: 500px) {
+          font-size: 30px;
         }
       }
     }

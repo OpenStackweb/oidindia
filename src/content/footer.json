@@ -9,16 +9,16 @@
     "networks": [
       {
         "icon": "fa-facebook",
-        "link": "/footer-content/",
+        "link": "https://www.facebook.com/OPENINFRA.USA/",
         "display": true
       },
       {
         "icon": "fa-twitter",
-        "link": "/footer-content/",
+        "link": "https://twitter.com/openinfradev",
         "display": true
       },
       {
-        "icon": "fa-linkedin",
+        "icon": "https://www.linkedin.com/company/open-infrastructure-foundation/",
         "link": "/footer-content/",
         "display": true
       }

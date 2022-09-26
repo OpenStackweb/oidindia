@@ -644,4 +644,12 @@ div#swal2-content {
   font-size: 30px;
 }
 
+a[href*="support@fntech.com"] {
+  display: none;
+}
+
+span.footer___FL9TW {
+  color: #fff;
+}
+
 @import "~openstack-uicore-foundation/lib/css/components/extra-questions.css";

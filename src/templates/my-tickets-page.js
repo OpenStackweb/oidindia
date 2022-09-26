@@ -11,7 +11,7 @@ const MyTicketsPage = ({ location }) => {
                 <MyOrdersTicketsComponent />
             </div>
             <div className="container">
-                <p>If you have registered multiple tickets for other attendees, you can assign them to the other attendees by selecting the ticket you would like to reassign, and clicking on the "Re-Assign" tab. You can then enter in another participants email to assign the ticket to them.</p>
+                <p>If you have registered multiple tickets for other attendees, you can assign them to the other attendees by selecting the ticket you would like to reassign, and clicking on the "Re-Assign" tab. You can then enter the email address of the other participant to assign the ticket to them.</p>
             </div>
             <div className="container">
                 <div className="ticket-return-home">

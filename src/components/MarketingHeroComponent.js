@@ -107,11 +107,11 @@ const MarketingHeroComponent = ({ siteSettings, summit_phase, isLoggedUser, summ
           }}
         >
           <div className={`${styles.heroMarketingContainer} hero-body`}>
-            <div className="container">
+            <div className="container marketing-content-container">
               <h1 className="title">{siteSettings.heroBanner.title}</h1>
               <h2 className="subtitle">{siteSettings.heroBanner.subTitle}</h2>
               <div
-                className={styles.date}
+                className={styles.date + " marketing-date-container"}
                 style={{
                   backgroundColor: siteSettings.heroBanner.dateLayout
                     ? "var(--color_secondary)"
@@ -125,9 +125,9 @@ const MarketingHeroComponent = ({ siteSettings, summit_phase, isLoggedUser, summ
                 }}
               >
                 {siteSettings.heroBanner.dateLayout ?
-                <div style={{transform: "skew(25deg)"}}>{siteSettings.heroBanner.date}</div>
+                <div className="marketing-date-inner-container" style={{transform: "skew(25deg)"}}>{siteSettings.heroBanner.date}</div>
                 :
-                <div style={{transform: "skew(0deg)"}}>
+                <div className="marketing-date-inner-container" style={{transform: "skew(0deg)"}}>
                   <span>{siteSettings.heroBanner.date}</span>
                 </div>
                 }
@@ -151,7 +151,7 @@ const MarketingHeroComponent = ({ siteSettings, summit_phase, isLoggedUser, summ
               })}
             </Slider>
             :
-            <div className={styles.singleImage} aria-label={siteSettings.heroBanner.images[0].alt} style={{ backgroundImage: `url(${siteSettings.heroBanner.images[0].file})`}} >
+            <div className={styles.singleImage + " marketing-site-hero-img"} aria-label={siteSettings.heroBanner.images[0].alt} style={{ backgroundImage: `url(${siteSettings.heroBanner.images[0].file})`}} >
             </div>
           }
         </div>

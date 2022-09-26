@@ -40,7 +40,7 @@ class Countdown extends React.Component {
         <div className={styles.countdown}>
           <div className={`${styles.countdownColumns} columns is-gapless`}>
             <div className={`${styles.leftColumn} column is-6 is-black`}>
-              <div>{text}</div>
+              <div className="marketing-site-countdown-text">{text}</div>
             </div>
             <div className={`${styles.rightColumn} column is-6 is-black`}>
               <div>

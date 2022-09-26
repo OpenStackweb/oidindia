@@ -1,7 +1,7 @@
 backend:
   name: github
-  branch: main
-  repo: fntechgit/fnEvent
+  branch: prod/oid-india
+  repo: OpenStackweb/fnEvent
   commit_messages:
     create: 'Create {{collection}} “{{slug}}”'
     update: 'Update {{collection}} “{{slug}}”'

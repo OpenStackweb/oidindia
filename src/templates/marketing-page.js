@@ -137,6 +137,12 @@ export const MarketingPageTemplate = class extends React.Component {
             </Masonry>
           </div>
         </div>
+        <div className="container marketing-section-content">
+          <h2>
+            About This Event
+          </h2>
+          <p>OpenInfra, Cloud Native, Magma & Hyperledger Days India 2022 is an open source infrastructure community event jointly hosted by OpenInfra, Cloud Native, Magma and Hyperledger communities.</p>
+        </div>
         <PageContent content={content} />
       </React.Fragment>
     )

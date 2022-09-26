@@ -125,7 +125,7 @@ const Navbar = ({
         role="navigation"
         aria-label="main navigation"
       >
-        <div className={styles.navbarBrand}>
+        <div className={styles.navbarBrand + " marketing-site-navbar"}>
           <Link
             to={isLoggedUser ? defaultPath : "/"}
             className={styles.navbarItem}

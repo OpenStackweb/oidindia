@@ -67,7 +67,7 @@ const RegistrationLiteComponent = ({
 
     const formatThirdPartyProviders = (providersArray) => {
         const providers = [
-            { button_color: '#082238', provider_label: 'Continue with FNid', provider_param: '', provider_logo: '../img/logo_fn.svg', provider_logo_size: 35 },
+            { button_color: '#082238', provider_label: 'Continue with OpenInfra ID', provider_param: '', provider_logo: '../img/logo_oif.png', provider_logo_size: 25 },
         ];
 
         const thirdPartyProviders = [

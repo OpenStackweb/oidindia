@@ -1,8 +1,6 @@
 ---
 templateKey: custom-page
-userRequirement: NONE
 title: Who we are
+userRequirement: NONE
 ---
-YOU DECIDE!
-
-Have a vision or mission statement you’d like to share? Maybe a photo gallery of your leadership or internal event team? This is the perfect place to pop it in! Want this to be something totally different? No worries. You hold the keys to the top navigation; we can make it whatever you want it to be!
+OpenInfra Foundation hosts open source projects that contribute to the advancement of today’s infrastructure. From cloud hosting to the driving force behind 5G, these projects are code first and operate under the guiding principles we call the “Four Opens.” These projects include [OpenStack](https://www.openstack.org/), [Airship](https://airshipit.org/), [Kata Containers](https://katacontainers.io/), [OpenInfra Labs](https://openinfralabs.org/), [StarlingX](https://starlingx.io/), and [Zuul](https://zuul-ci.org/). Additional initiatives supported by the OpenInfra Foundation include [OpenDev](https://opendev.org/), project hosting, continuous integration tooling, and virtual collaboration spaces for open source software projects and Superuser, an online publication where users and developers share how they're combining software from OpenInfra Foundation communities with other popular open source tools like Kubernetes, Ceph, Cloud Foundry, OVS, OpenContrail, Open Switch, OPNFV and more to power their open infrastructure.

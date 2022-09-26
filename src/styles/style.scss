@@ -588,4 +588,83 @@ div.event-feedback-container {
   top: 70% !important;
 }
 
+
+#content-wrapper {
+  .marketing-content-container {
+    .title {
+      font-size: 50px;
+      margin-bottom: 40px;
+      @media screen and (max-width: 1000px) and (min-width: 769px) {
+        font-size: 40px
+      }
+      @media screen and (max-width: 500px) {
+        font-size: 42px;
+      }
+    }
+    .marketing-date-container {
+      @media screen and (max-width: 500px) {
+        width: fit-content;
+      }
+      .marketing-date-inner-container {
+        font-size: 38px;
+        @media screen and (max-width: 1000px) and (min-width: 769px) {
+          font-size: 30px;
+        }
+        @media screen and (max-width: 500px) {
+          font-size: 30px;
+        }
+        @media screen and (max-width: 390px) {
+          font-size: 25px;
+        }
+      }
+    }
+  }
+}
+
+.marketing-site-navbar {
+  @media screen and (max-width: 500px) {
+    padding-left: 0;
+  }
+}
+
+.marketing-site-countdown-text {
+  font-size: 42px;
+  @media screen and (max-width: 1000px) and (min-width: 769px) {
+    font-size: 38px
+  }
+}
+
+.marketing-section-content {
+  padding-bottom: 80px;
+  h2 {
+    font-size: 32px;
+  }
+  p {
+    font-size: 17px;
+  }
+}
+
+#marketing-slider {
+  .marketing-site-hero-img {
+    background-position: 50%;
+  }
+}
+
+div#swal2-content {
+  font-size: 17px;
+}
+
+.ticket-return-home {
+  margin-top: 30px;
+  font-size: 30px;
+}
+
+a[href*="support@fntech.com"] {
+  display: none;
+}
+
+span.footer___FL9TW {
+  color: #fff;
+}
+
 @import "~openstack-uicore-foundation/lib/css/components/extra-questions.css";

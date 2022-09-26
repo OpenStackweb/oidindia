@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: 'Virtual Event',
-    description: 'Virtual event',
+    title: 'OpenInfra Days India',
+    description: 'OpenInfra Days India',
   },
   plugins: [
     'gatsby-plugin-react-helmet',

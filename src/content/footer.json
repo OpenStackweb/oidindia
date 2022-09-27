@@ -18,8 +18,8 @@
         "display": true
       },
       {
-        "icon": "https://www.linkedin.com/company/open-infrastructure-foundation/",
-        "link": "/footer-content/",
+        "icon": "fa-linkedin",
+        "link": "https://www.linkedin.com/company/open-infrastructure-foundation/",
         "display": true
       }
     ]

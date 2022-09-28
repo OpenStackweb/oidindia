@@ -109,7 +109,6 @@ const MarketingHeroComponent = ({ siteSettings, summit_phase, isLoggedUser, summ
           <div className={`${styles.heroMarketingContainer} hero-body`}>
             <div className="container marketing-content-container">
               <h1 className="title">{siteSettings.heroBanner.title}</h1>
-              <h2 className="subtitle">{siteSettings.heroBanner.subTitle}</h2>
               <div
                 className={styles.date + " marketing-date-container"}
                 style={{

@@ -195,7 +195,7 @@ collections:
         fields:
           - {label: "Hero Banner", name: "heroBanner", widget: "object", fields: [
               {label: "Title", name: "title", widget: string},
-              {label: "Homepage About Content", name: "subTitle", widget: text, required: false},
+              {label: "Homepage About Content", name: "subTitle", widget: code, required: false},
               {label: "Date", name: "date", widget: string, required: false},
               {label: "Date Layout", name: "dateLayout", widget: boolean, required: false},
               {label: "Time", name: "time", widget: string, required: false},

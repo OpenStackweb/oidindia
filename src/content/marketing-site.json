@@ -1,7 +1,7 @@
 {
   "heroBanner": {
     "title": "OpenInfra, Cloud Native, Magma & Hyperledger Days India 2022",
-    "subTitle": "## This is a test",
+    "subTitle": "<h2>This is a test</h2>",
     "date": "December 10, 2022",
     "time": "",
     "dateLayout": true,

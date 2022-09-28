@@ -138,8 +138,7 @@ export const MarketingPageTemplate = class extends React.Component {
           </div>
         </div>
         <div className="container marketing-section-content">
-        <PageContent content={content} />
-        {siteSettings.heroBanner.subTitle.replace(/['"]+/g, '')}
+        <div dangerouslySetInnerHTML={{ __html: siteSettings.heroBanner.subTitle}} />
         </div>
       </React.Fragment>
     )

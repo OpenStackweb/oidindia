@@ -195,7 +195,7 @@ collections:
         fields:
           - {label: "Hero Banner", name: "heroBanner", widget: "object", fields: [
               {label: "Title", name: "title", widget: string},
-              {label: "Sub Title", name: "subTitle", widget: string, required: false},
+              {label: "Homepage About Content", name: "subTitle", widget: text, required: false},
               {label: "Date", name: "date", widget: string, required: false},
               {label: "Date Layout", name: "dateLayout", widget: boolean, required: false},
               {label: "Time", name: "time", widget: string, required: false},
@@ -219,10 +219,6 @@ collections:
               ]},
             ]}
           - {label: "Countdown", name: "countdown", widget: object, fields: [
-              {label: "Should Display?", name: display, widget: boolean, required: false},
-              {label: "Text", name: "text", widget: string}
-            ]}
-          - {label: "About Text", name: "aboutText", widget: object, fields: [
               {label: "Should Display?", name: display, widget: boolean, required: false},
               {label: "Text", name: "text", widget: string}
             ]}

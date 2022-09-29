@@ -1,7 +1,7 @@
 backend:
   name: github
   branch: prod/oid-india
-  repo: OpenStackweb/fnEvent
+  repo: OpenStackweb/oidindia
   commit_messages:
     create: 'Create {{collection}} “{{slug}}”'
     update: 'Update {{collection}} “{{slug}}”'

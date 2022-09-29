@@ -1,4 +1,0 @@
-/*
-  Referrer-Policy: strict-origin-when-cross-origin
-/static/*
-  Cache-Control: "public, max-age=360000"

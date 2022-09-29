@@ -1,0 +1,56 @@
+.wrapper {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  gap: 30px;
+  padding: 20px 20px 0 20px;
+  @media (max-width: 991px) {
+    padding-top: 70px;
+    &.showFilters {
+      .postersWrapper {
+        display: none;
+      }
+      .filterWrapper {
+        display: block;
+      }
+    }
+  }
+  .postersWrapper {
+    flex: 75%;
+    @media (max-width: 991px) {
+      flex: 100%;
+    }
+  }
+  .filterWrapper {
+    flex: 25%;
+    margin-right: 20px;
+    @media (min-width: 991px) {
+      position: sticky;
+      top: 20px;
+      height: calc(100vh - 20px) !important;
+      overflow-y: scroll;
+      scroll-behavior: smooth;
+      // hide scrollbars
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+      &::-webkit-scrollbar {
+        display: none;
+      }
+    }
+    @media (max-width: 991px) {
+      flex: 100%;
+      display: none;
+      z-index: 1;
+      margin: 0;
+      background-color: white;
+    }
+  }
+  .filterWrapper + button {
+    @media (max-width: 991px) {
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      width: 100%
+    }
+  }
+}

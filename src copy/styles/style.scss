@@ -1,0 +1,670 @@
+@import './colors.scss';
+@import './global-classes';
+
+html,
+body {
+  font-family: "Nunito Sans", sans-serif !important;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+*:focus,
+.focus {
+  outline: 3px solid transparent !important;
+    box-shadow:  0 0 0 3px #fff, 0 0 0 6px #333 !important;
+}
+*:focus-visible {
+  outline: none !important;
+}
+
+/*
+  This will hide the focus indicator if the element receives focus via the mouse,
+  but it will still show up on keyboard focus.
+*/
+html:not([data-whatintent=keyboard]) *:focus,
+html:not([data-whatintent=keyboard]) .focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+/*
+ Show Skip to content link when focused
+ */
+.skip-to-content:focus {
+  width: auto;
+  height: auto;
+  padding: 5px 10px;
+  margin: 0;
+  overflow: hidden;
+  clip: auto;
+  white-space: nowrap;
+  border: 0;
+  position: absolute;
+  left: 50%;
+  top: 10px;
+  transform: translateX(-50%);
+  background-color: white;
+  z-index: 999;
+  font-size: 120%;
+  text-decoration: none;
+}
+
+/* overrides Bulma focus style */
+.button:focus {
+  color: $color_text_light !important;
+}
+
+label {
+  font-weight: 300;
+}
+
+button.link {
+  border: none;
+  background: transparent;
+}
+
+.swal-wrapper {
+  .swal-title {
+    @extend %title-med;
+  }
+
+  .swal-body {
+    @extend %text-med;
+  }
+
+  .swal-icon {
+
+  }
+
+  .swal-confirm {
+    @extend %button-small-primary;
+  }
+
+  .swal-cancel {
+    @extend %button-small-secondary;
+  }
+}
+
+#container {
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+header div.current-user {
+  position: absolute;
+  top: 30px;
+  right: 10px;
+  color: #fff;
+}
+
+
+button.link {
+  cursor: pointer;
+  text-decoration: none;
+  border: none;
+  background-color: transparent;
+}
+
+
+footer {
+  color: #fff;
+  width: 100%;
+  padding-top: 12px;
+}
+
+#content-wrapper {
+  padding-bottom: 3rem;
+  min-height: 95vh;
+}
+
+div.login-form {
+  display: block;
+  background-color: #f5f5f5;
+  border: 1px solid #e3e3e3;
+  border-radius: 4px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05) inset;
+  margin-bottom: 20px;
+  min-height: 20px;
+  padding: 19px;
+  margin: 50px auto;
+  width: 380px;
+}
+
+div.content {
+  padding: 30px;
+  padding-bottom: 54px;
+}
+
+div.title {
+  font-weight: 700 !important;
+  color: #333333 !important;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.video-row {
+  display: flex;
+}
+
+.vjs-modal-dialog .vjs-modal-dialog-content {
+  padding: 0;
+
+  .video-error {
+    display: flex;
+    height: 100%;
+    width: 100%;
+
+    .hero {
+      background-color: $color_secondary;
+      align-self: center;
+      width: 100%;
+      height: 100%;
+
+      .hero-body {
+        display: flex;
+        align-items: center;
+        width: 100%;
+
+        div {
+          margin-left: 3rem;
+
+          h1 {
+            color: white;
+            font-size: 3.5rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+#marketing-slider {
+  .slick-track {
+    height: inherit;
+  }
+}
+
+.my-masonry-grid {
+  display: -webkit-box;
+  /* Not needed if autoprefixing */
+  display: -ms-flexbox;
+  /* Not needed if autoprefixing */
+  display: flex;
+  width: auto;
+}
+
+.my-masonry-grid_column {
+  padding-left: 0px;
+  /* gutter size */
+  background-clip: padding-box;
+
+  .slick-slider {
+    margin-bottom: -5px;
+  }
+}
+
+/* Style your items */
+.my-masonry-grid_column > div {
+  /* change div to reference your elements you put in <Masonry> */
+  margin-bottom: 0px;
+
+  img {
+    width: 100%;
+  }
+}
+
+.sponsor-carousel {
+  .slick-track {
+    display: flex;
+
+    .slick-slide {
+      display: flex;
+      height: auto;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}
+
+.talk {
+  &__break {
+    background-color: $color_secondary;
+    min-height: 92vh !important;
+    width: 100%;
+    padding: 0 3rem;
+
+    h1,
+    h2 {
+      color: $color_text_light;
+      font-size: 42px;
+    }
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  &__date {
+    font-weight: bold;
+  }
+
+
+  &__speaker {
+    &--name {
+      text-transform: capitalize;
+    }
+
+    &-container {
+      display: inline-flex;
+
+      img {
+        height: 40px;
+        width: 40px;
+        border-radius: 5px;
+      }
+
+      div {
+        padding-left: 5px;
+      }
+      span {
+        font-weight: 600;
+      }
+    }
+  }
+
+  &__description {
+    margin-top: 1rem;
+  }
+
+  &__like {
+    text-align: right;
+  }
+
+  &__join-button {
+    background-color: #26b;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    line-height: 42px;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+    align-items: flex-end;
+  }
+
+}
+
+.join-zoom-container {
+  align-items: center;
+  background-color: $color_secondary;
+  color: $color_text_light;
+  display: flex;
+  height: 110px;
+  justify-content: space-around;
+  padding: 0 3rem;
+
+  span {
+    font-size: 40px;
+    font-weight: bold;
+  }
+
+  a:hover.zoom-link,
+  a:visited.zoom-link {
+    text-decoration: none;
+  }
+
+  button {
+    font-size: 22px;
+    padding-left: 4em;
+    padding-right: 4em;
+    text-transform: uppercase;
+  }
+}
+
+.outerWrapper___lGus2 {
+  .widget-title {
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 33px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+}
+
+.widget-title {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px !important;
+}
+
+.speakers-widget {
+  margin-top: 15px;
+}
+
+.live-event-container {
+  margin: 0 0 15px;
+}
+
+div.event-feedback-container {
+  margin: 0 0 15px;
+
+  div.widget-title {
+    margin-bottom: 10px !important;
+    position: relative;
+    text-align: center;
+
+    @media (min-width: 768px) {
+      margin-bottom: 0 !important;
+      bottom: -38px;
+    }
+  }
+}
+
+.disqus-container {
+  padding: 0 15px;
+}
+
+.disqus-container-home {
+  border: 1px solid #eee;
+  display: flex;
+  flex-direction: column;
+  max-height: 1500px;
+
+  .disqus-header {
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+    padding: 0 15px;
+    position: relative;
+    /*
+     Show Skip to next section link when focused
+     */
+    .skip-to-next:focus {
+      width: auto;
+      height: auto;
+      padding: 2px 5px;
+      margin: 0;
+      overflow: hidden;
+      clip: auto;
+      white-space: nowrap;
+      border: 0;
+      position: absolute;
+      left: 50%;
+      top: 20px;
+      transform: translateX(-50%);
+      background-color: white;
+      color: #363636;
+      z-index: 999;
+      text-decoration: none;
+    }
+  }
+  #disqus_thread {
+    overflow: auto;
+    padding: 0 15px;
+  }
+}
+
+.schedule-container-home {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  position: static;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding-bottom: 10px;
+  max-height: 1500px;
+}
+
+.schedule-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+  margin-bottom: 15px;
+
+  span.navbar-brand {
+    padding: 15px 15px 0px 0px;
+    margin-bottom: 0;
+    height: auto;
+  }
+}
+
+.sponsors-header {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.logout-button {
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  padding-right: 15px;
+}
+
+.custom-video-modal {
+  position: absolute !important;
+  top: auto !important;
+  left: auto !important;
+  bottom: 0;
+  right: 0;
+  margin: 2rem;
+  width: 25% !important;
+  height: 25% !important;
+  background: rgba(0, 0, 0, 0.8) !important;
+}
+
+@media (max-width: 1430px) {
+  .join-zoom-container {
+    span {
+      font-size: 22px;
+    }
+
+    button {
+      padding-left: 3em;
+      padding-right: 3em;
+      font-size: 18px;
+    }
+  }
+}
+
+@media (max-width: 978px) {
+  #marketing-slider {
+    .slick-track {
+      height: 520px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  div.login-form {
+    width: auto;
+  }
+
+  #marketing-columns {
+    margin-bottom: 4rem;
+  }
+
+  #marketing-slider {
+    .slick-track {
+      height: 250px;
+    }
+  }
+
+  .talk {
+    &__break {
+      height: auto;
+    }
+  }
+
+  .join-zoom-container {
+    flex-direction: column;
+    height: 100px;
+
+    span {
+      font-size: 18px;
+    }
+
+    button {
+      padding-left: 2em;
+      padding-right: 2em;
+      font-size: 16px;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .disqus-container {
+    position: absolute;
+    overflow-y: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    &-marketing {
+      position: absolute;
+      overflow-y: auto;
+      top: 95px;
+      right: 0;
+      left: 20px;
+      bottom: 0;
+      padding-right: 20px;
+    }
+  }
+
+  .schedule-container {
+    &-marketing {
+      display: flex;
+      flex-direction: column;
+      margin-top: 15px;
+      position: absolute;
+      overflow-y: auto;
+      top: 95px;
+      right: 0;
+      left: 20px;
+      bottom: 0;
+      padding-right: 20px;
+      padding-bottom: 30px;
+    }
+  }
+}
+
+@media (min-width: 1921px) {
+  .talk {
+    &__break {
+      min-height: 100vh !important;
+    }
+  }
+}
+
+/* extra questions */
+[id^="chl_wrapper"] {
+  .checkboxes-div {
+    > div {
+      display: flex;
+      align-content: center;
+      label {
+        padding-left: 15px;
+      }
+    }
+  }
+}
+
+[id^="rl_wrapper"] {
+  display: flex;
+  flex-direction: column;
+  div {
+    padding-left: 10px !important;
+  }
+}
+
+.css-dvua67-singleValue {
+  top: 70% !important;
+}
+
+
+#content-wrapper {
+  .marketing-content-container {
+    .title {
+      font-size: 50px;
+      margin-bottom: 40px;
+      @media screen and (max-width: 1000px) and (min-width: 769px) {
+        font-size: 40px
+      }
+      @media screen and (max-width: 500px) {
+        font-size: 42px;
+      }
+    }
+    .marketing-date-container {
+      @media screen and (max-width: 500px) {
+        width: fit-content;
+      }
+      .marketing-date-inner-container {
+        font-size: 38px;
+        @media screen and (max-width: 1000px) and (min-width: 769px) {
+          font-size: 30px;
+        }
+        @media screen and (max-width: 500px) {
+          font-size: 30px;
+        }
+        @media screen and (max-width: 390px) {
+          font-size: 25px;
+        }
+      }
+    }
+  }
+}
+
+.marketing-site-navbar {
+  @media screen and (max-width: 500px) {
+    padding-left: 0;
+  }
+}
+
+.marketing-site-countdown-text {
+  font-size: 42px;
+  @media screen and (max-width: 1000px) and (min-width: 769px) {
+    font-size: 38px
+  }
+}
+
+.marketing-section-content {
+  padding-bottom: 80px;
+  h2 {
+    font-size: 32px;
+  }
+  p {
+    font-size: 17px;
+  }
+}
+
+#marketing-slider {
+  .marketing-site-hero-img {
+    background-position: 50%;
+  }
+}
+
+div#swal2-content {
+  font-size: 17px;
+}
+
+.ticket-return-home {
+  margin-top: 30px;
+  font-size: 30px;
+}
+
+a[href*="support@fntech.com"] {
+  display: none;
+}
+
+span.footer___FL9TW {
+  color: #fff;
+}
+
+@import "~openstack-uicore-foundation/lib/css/components/extra-questions.css";

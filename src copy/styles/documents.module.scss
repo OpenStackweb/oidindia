@@ -1,0 +1,63 @@
+@import './colors.scss';
+
+.docs-container {  
+  border: 1px solid #d3d3d3;
+  color: $color_text_dark;
+  display: flex;
+  flex-direction: column;
+
+  .title {
+    width: 100%;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  .document-column {
+    margin-top: 0;
+    margin-bottom: 0;
+
+    .document-name {
+      display: block;
+      overflow: hidden;      
+      text-overflow: ellipsis;
+    }
+  }
+
+  .docs-item {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2rem;
+  }
+
+  span {
+    font-size: 14px;
+  }
+
+  p {
+    margin: 0;
+  }
+
+  a {
+    color: $color_text_dark;
+  }
+
+  i {
+    font-size: 2.5rem;
+  }
+
+  hr:first-of-type {
+    margin: 0 auto 0.5rem;
+  }
+
+  hr {    
+    border-top: 1px solid #d3d3d3;
+    margin: 0.5rem auto 0.5rem;
+    width: 94%;
+  }
+
+  hr:last-of-type {
+    visibility: hidden;
+    margin: 0.5rem auto 0;
+  }
+}

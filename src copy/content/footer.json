@@ -1,0 +1,33 @@
+{
+  "columns": [],
+  "logo": {
+    "display": false
+  },
+  "social": {
+    "title": "Follow Us",
+    "display": false,
+    "networks": [
+      {
+        "icon": "fa-facebook",
+        "link": "https://www.facebook.com/OPENINFRA.USA/",
+        "display": true
+      },
+      {
+        "icon": "fa-twitter",
+        "link": "https://twitter.com/openinfradev",
+        "display": true
+      },
+      {
+        "icon": "fa-linkedin",
+        "link": "https://www.linkedin.com/company/open-infrastructure-foundation/",
+        "display": true
+      }
+    ]
+  },
+  "legal": [
+    {
+      "title": "Code of Conduct",
+      "link": "https://openinfra.dev/legal/code-of-conduct"
+    }
+  ]
+}

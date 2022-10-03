@@ -15,7 +15,9 @@
         "display": true
       }
     },
-    "background": "",
+    "background": {
+      "file": "https://platform9.com/wp-content/uploads/2021/03/platform9-telco-5g.mp4"
+    },
     "images": [
       {
         "file": "/img/cover-website-4.svg"

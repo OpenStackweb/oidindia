@@ -34,9 +34,9 @@
       "pageRestriction": [
         "ANY"
       ],
-      "title": "test",
+      "title": "about",
       "display": true,
-      "link": "/test"
+      "link": "/about"
     }
   ]
 }

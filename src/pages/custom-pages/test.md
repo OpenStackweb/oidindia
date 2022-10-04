@@ -22,6 +22,12 @@ userRequirement: NONE
                           </div>
                       </div>
                   </div>
+
+\    <div class="content-column col-lg-6 col-md-12 col-sm-12">
+
+<img src="https://images.unsplash.com/photo-1563457012475-13cf086fd600?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" class="img-fluid">
+
+\    </div>
               </div>
 
 </section>

@@ -16,25 +16,25 @@
       }
     },
     "background": {
-      "file": "/img/bg-left.png"
+      "file": "/img/audience-3-1645106660tcaez.png"
     },
     "images": [
       {
-        "file": "/img/cover-website-4.svg"
+        "file": ""
       }
     ]
   },
   "leftColumn": {
     "schedule": {
-      "display": true,
+      "display": false,
       "title": "Full Event Schedule"
     },
     "disqus": {
-      "display": true,
+      "display": false,
       "title": "Join the conversation"
     },
     "image": {
-      "display": true,
+      "display": false,
       "title": "Image",
       "src": ""
     }

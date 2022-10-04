@@ -3,9 +3,6 @@ templateKey: custom-page
 title: test
 userRequirement: NONE
 ---
-<style> @import "https://2022.openinfra.asia/assets/css/bootstrap.css"; </style>
-<style> @import "https://2022.openinfra.asia/assets/css/style.css"; </style>
-
 <section id="about-section" class="about-section">
       <div class="anim-icons full-width">
           <span class="icon icon-dots wow fadeInleft animated" style="visibility: visible;"></span>
@@ -27,8 +24,4 @@ userRequirement: NONE
                   </div>
               </div>
 
-```
-
-```
-
-  </section>
+</section>

@@ -18,7 +18,11 @@
     "background": {
       "file": "/img/audience-3-1645106660tcaez.png"
     },
-    "images": []
+    "images": [
+      {
+        "file": "/img/cover-website-4.png"
+      }
+    ]
   },
   "leftColumn": {
     "schedule": {

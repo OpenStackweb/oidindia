@@ -32,10 +32,11 @@
       "requiresAuth": false,
       "showOnlyAtShowTime": false,
       "pageRestriction": [
-        "ANY"
+        "ANY",
+        "CUSTOM_PAGE"
       ],
       "title": "test",
-      "display": true,
+      "display": false,
       "link": "/test"
     }
   ]

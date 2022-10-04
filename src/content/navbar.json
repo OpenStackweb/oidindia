@@ -27,6 +27,16 @@
       "title": "Code of Conduct",
       "link": "https://openinfra.dev/legal/code-of-conduct",
       "display": true
+    },
+    {
+      "requiresAuth": false,
+      "showOnlyAtShowTime": false,
+      "pageRestriction": [
+        "ANY"
+      ],
+      "title": "ABOUT",
+      "display": true,
+      "link": "/ABOUT"
     }
   ]
 }

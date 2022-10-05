@@ -25,7 +25,7 @@ userRequirement: NONE
               </div>
               <div class="image-column col-lg-6 col-md-12 col-sm-12">
                   <div class="image-box">
-                      <figure class="image wow fadeIn animated" style="visibility: visible; animation-name: fadeIn;"><img src="https://images.pexels.com/photos/7971355/pexels-photo-7971355.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt=""></figure>
+                      <figure class="image wow fadeIn animated" style="visibility: visible; animation-name: fadeIn;"><img src="https://raw.githubusercontent.com/OpenStackweb/oidindia/de244ee6eb7dbc7ec057e27241ca1b0bd1a431b2/static/img/cloud%20native.png" alt=""></figure>
                   </div>
               </div>
               <div class="content-column col-lg-12 col-md-12 col-sm-12">

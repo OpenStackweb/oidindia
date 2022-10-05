@@ -99,7 +99,7 @@ const MarketingHeroComponent = ({ siteSettings, summit_phase, isLoggedUser, summ
     <section className={styles.heroMarketing}>
       <div className={`${styles.heroMarketingColumns} columns is-gapless`}>
         <div
-          className={`${styles.leftColumn} column is-6`}
+          className={`${styles.leftColumn} column is-12`}
           style={{
             backgroundImage: siteSettings.heroBanner.background?.file
               ? `url(${siteSettings.heroBanner.background.file})`
@@ -138,7 +138,7 @@ const MarketingHeroComponent = ({ siteSettings, summit_phase, isLoggedUser, summ
             </div>
           </div>
         </div>
-        <div className={`${styles.rightColumn} column is-6 px-0`} id="marketing-slider" ref={sliderRef}>
+        <div className={`${styles.rightColumn} column is-12 px-0`} id="marketing-slider" ref={sliderRef}>
           {siteSettings.heroBanner.images.length > 1 ?
             <Slider {...sliderSettings}>
               {siteSettings.heroBanner.images.map((img, index) => {

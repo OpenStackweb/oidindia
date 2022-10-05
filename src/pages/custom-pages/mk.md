@@ -25,7 +25,7 @@ userRequirement: NONE
               </div>
               <div class="image-column col-lg-6 col-md-12 col-sm-12">
                   <div class="image-box">
-                      <figure class="image wow fadeIn animated" style="visibility: visible; animation-name: fadeIn;"><img src="https://images.unsplash.com/photo-1563457012475-13cf086fd600?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt=""></figure>
+                      <figure class="image wow fadeIn animated" style="visibility: visible; animation-name: fadeIn;"><img src="https://images.pexels.com/photos/7971355/pexels-photo-7971355.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt=""></figure>
                   </div>
               </div>
               <div class="content-column col-lg-12 col-md-12 col-sm-12">
